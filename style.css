@@ -1,0 +1,20 @@
+h2{color: blue;
+text-align: center;
+}
+p{
+    color: rgb(red, green, blue);
+    text-align: center;
+    font-size: large;
+}
+.par{
+    color: yellowgreen;
+    background-color: black;
+    
+}
+
+#ac{
+    color: antiquewhite;
+}
+#pp{
+    color: rgb(red, green, blue ,1);
+}
