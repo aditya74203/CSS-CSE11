@@ -1,10 +1,11 @@
-h2{color: blue;
+/* h2{color: blue;
 text-align: center;
 }
 p{
     color: rgb(red, green, blue);
     text-align: center;
-    font-size: large;
+    font-size: 25px;
+    padding: 10px;
 }
 .par{
     color: yellowgreen;
@@ -17,4 +18,127 @@ p{
 }
 #pp{
     color: rgb(red, green, blue ,1);
+}
+div{
+    height: 200px;
+    width: 200px;
+    color: red;
+    background-color: aqua;
+    text-align: center;
+    align-content: center;
+    padding: 30px;
+    margin: 50px;
+    border: 10px dotted red;
+}
+h2{
+    text-align: center;
+    color: blueviolet;
+    align-content: center;
+}
+#ec{
+    background-color: beige;
+    border: 10px solid black;
+    padding: 10px;
+    height: 200px;
+    width: 600px;
+
+}
+#pp{
+    text-align: left;
+    align-content: baseline;
+}
+.box1{
+    background-color: green;
+}
+.box2{
+    background-color: purple;
+
+}
+.box3{
+    background-color: aqua;
+}
+    
+ */
+/* div{
+    color: black;
+    border: 20px solid black;
+     text-align: center;
+     align-content: baseline;
+     padding: 20px;
+     margin: 10px;
+}
+h1{
+    text-align: center;
+    color: brown;
+    align-content: center;
+    margin: 20px;
+    padding: 20px;*/
+}
+#br{
+    background-color: #654321; 
+    border: 10px solid black;
+    padding: 10px;
+    height: 300px;
+    width: 500px;
+
+}
+#re{
+    text-align: center;
+    align-content: center;
+    height: 300px;
+    width: 500px;
+    background-color: red;
+    border: 10px solid black;
+    padding: 10px;
+  
+   
+}
+ .container{
+    background-color: lightblue;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#bl{
+    background-color: black;
+    border: 10px solid black;
+    padding: 10px;
+    height: 300px;
+    width: 500px;
+    color: white; 
+ 
+}
+
+/* } */
+/* .jk{
+    display: block;
+}
+.jk1{
+    display : inline;
+} */
+ /* .box{
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    margin: 20px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+ }
+    .box1{
+        background-color: lightgreen;
+    } */
+p{
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid black;
+}
+img{
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid black;
 }
