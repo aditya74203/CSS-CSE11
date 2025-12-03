@@ -1,0 +1,48 @@
+ /* @media (max-width: 768px) {
+    p{
+        color: blue;
+    }
+}  */
+/* @media(main-width: 769px) and (max-width: 1024px){
+    p{
+        color: blue;
+    }
+} */
+ .box{
+    width: 100%;
+    height: 100px;
+    background-color: lightblue;
+    
+ }
+ @media (max-width: 768px) {
+    .box{
+        background-color: red;
+        flex-direction: column;
+    .nav ul {
+        flex-direction: column;
+    }
+    }
+
+ }
+  li{
+    list-style: none;
+    text-decoration: none; 
+ }
+ nav ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+    padding: 10px;
+ }
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+#menu li a{
+    border: 1px solid black;
+    background-color: lightgreen;
+    list-style: none;
+    text-decoration: none;
+        color: blue;
+    } 
