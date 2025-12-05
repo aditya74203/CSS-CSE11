@@ -19,10 +19,15 @@
         background-color: red;
         flex-direction: column;
     .nav ul {
+        display: flex;
         flex-direction: column;
     }
     }
-
+}
+@media(min-width: 1024px) {
+    .box{
+        background-color: lightblue;
+    }
  }
   li{
     list-style: none;
@@ -41,8 +46,16 @@
     }
 #menu li a{
     border: 1px solid black;
-    background-color: lightgreen;
+    background-color: lightblue;
     list-style: none;
     text-decoration: none;
-        color: blue;
+        color: black;
+        text-align: center;
+        align-content: center;
+        display: block;
+        @media(max-width: 768px) {
+            display: block;
+            padding: 10px;
+            background-color: lightgreen;
     } 
+}
